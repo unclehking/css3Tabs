@@ -31,15 +31,15 @@ html:
         <input type="radio" name="tabs" checked />
         <em class="title">希望</em>
         <div class="tab-content">
-            <div>我和无数 </div>
-            <div>不能孵化的卵石 </div>
-            <div>垒在一起 </div>
-            <div>蓝色的河溪慢慢爬来 </div>
-            <div>把我们吞没 </div>
-            <div>又悄悄吐出 </div>
-            <div>没有别的</div>
-            <div>只希望草能够延长</div>
-            <div>它的影子</div>
+            <p>我和无数 </p>
+            <p>不能孵化的卵石 </p>
+            <p>垒在一起 </p>
+            <p>蓝色的河溪慢慢爬来 </p>
+            <p>把我们吞没 </p>
+            <p>又悄悄吐出 </p>
+            <p>没有别的</p>
+            <p>只希望草能够延长</p>
+            <p>它的影子</p>
         </div>
     </label>
     <label  >  
