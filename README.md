@@ -27,26 +27,34 @@ css：
 html:
 ```java  
 <div class="tabs">
-  <label >
-    <input type="radio" name="tabs" checked />
-    <em class="title">希望</em>
-    <div class="tab-content">
-      <div>我和无数 </div><div>不能孵化的卵石 </div><div>垒在一起 </div><div>蓝色的河溪慢慢爬来 </div><div>把我们吞没 </div><div>又悄悄吐出 </div><div>没有别的</div><div>只希望草能够延长</div><div>它的影子</div>
-    </div>
-  </label>
-  <label  >  
-    <input type="radio" name="tabs" />
-    <em class="title">标题二</em>
-    <div class="tab-content">
-      <img style="width:100%;-webkit-filter: grayscale(1); " src="http://d3.freep.cn/3tb_160510144216ds77564436.jpg" alt="">
-    </div>
-  </label>
-  <label >
-    <input type="radio" name="tabs" />
-    <em class="title">标题三</em>
-    <div class="tab-content">
-      <img style="width:100%;" src="http://d3.freep.cn/3tb_16051014451625ue564436.jpg" alt="">
-    </div>
-  </label>
+    <label >
+        <input type="radio" name="tabs" checked />
+        <em class="title">希望</em>
+        <div class="tab-content">
+            <div>我和无数 </div>
+            <div>不能孵化的卵石 </div>
+            <div>垒在一起 </div>
+            <div>蓝色的河溪慢慢爬来 </div>
+            <div>把我们吞没 </div>
+            <div>又悄悄吐出 </div>
+            <div>没有别的</div>
+            <div>只希望草能够延长</div>
+            <div>它的影子</div>
+        </div>
+    </label>
+    <label  >  
+        <input type="radio" name="tabs" />
+        <em class="title">标题二</em>
+        <div class="tab-content">
+            <img style="width:100%;-webkit-filter: grayscale(1); " src="http://d3.freep.cn/3tb_160510144216ds77564436.jpg" alt="">
+        </div>
+    </label>
+    <label >
+        <input type="radio" name="tabs" />
+        <em class="title">标题三</em>
+        <div class="tab-content">
+            <img style="width:100%;" src="http://d3.freep.cn/3tb_16051014451625ue564436.jpg" alt="">
+        </div>
+    </label>
 </div>
 ```
