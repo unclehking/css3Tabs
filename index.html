@@ -15,9 +15,16 @@
 			.tabs label em{display: block;overflow: hidden; width: 100%;height: 100%;line-height: 2.6em; font-style: normal;position: relative; }
 			.tabs label em:after{display: block;content: " ";width: 0%;height: 4px;background-color: #FF4081;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;margin: 0px auto 0 auto;}
 			.tabs input[type=radio]:checked + em:after{width: 100%;}
-			.tabs label em:before{display: none;z-index: 1;content: " ";position: absolute;top: 0px;left: 0px;width: 100%;height: 3px;background-color: #FF4081;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
+			.tabs label em:before{display: none;z-index: 1;content: " ";position: absolute;top: 50%;left: 50%;width: 0;height: 0; border-radius: 50%; background-color: #f8f8f8;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
 			.tabs label em:hover:before{display: block;}
-			.tabs input[type=radio]:checked + em:before{height: 200px;opacity: 0;}
+			.tabs input[type=radio]:checked + em:before{
+				width: 240px;
+				height: 240px;
+				top: -50px;
+				left: -50px;
+				opacity: 0;
+
+			}
 		</style>
 	</head>
 	<body>
